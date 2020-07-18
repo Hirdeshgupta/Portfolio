@@ -3,6 +3,7 @@ body {
     color: #434343;
     background: #111821;
     font-size: 16px;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -202,6 +203,10 @@ a.dotted-link:hover {
 .section .section-inner {
     background: #fff;
     padding: 30px;
+}
+
+.section .section-inner .height {
+    height: 500px;
 }
 
 .section .heading {
